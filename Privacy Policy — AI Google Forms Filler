@@ -1,0 +1,18 @@
+Privacy Policy — AI Google Forms Filler
+
+Last updated: June 2026
+
+Data collection:
+This extension does not collect, store, or transmit any personal data to external servers.
+
+What the extension accesses:
+- Text content of Google Forms pages (questions and answer options) — used locally to build a prompt.
+- Text responses from AI assistant tabs (Gemini, Claude, ChatGPT, DeepSeek, Grok) — used locally to fill the form.
+
+Local storage only:
+User preferences (language, delay, selected AI) and answer presets are stored locally in the browser using chrome.storage.local. This data never leaves the user's device.
+
+Third-party services:
+The extension opens tabs to AI services chosen by the user. The user's own account and session on those services are used. The extension developer has no access to these interactions.
+
+Contact: 20db09@gmail.com
