@@ -1,18 +1,52 @@
 Privacy Policy — AI Google Forms Filler
 
-Last updated: June 2026
+Last updated: October 7, 2026
 
-Data collection:
-This extension does not collect, store, or transmit any personal data to external servers.
+1. Summary
+AI Google Forms Filler does not collect, sell or share your data with the developer
+or any analytics, advertising or tracking service. The extension has no servers of its own.
 
-What the extension accesses:
-- Text content of Google Forms pages (questions and answer options) — used locally to build a prompt.
-- Text responses from AI assistant tabs (Gemini, Claude, ChatGPT, DeepSeek, Grok) — used locally to fill the form.
+2. What the extension accesses
+- Google Forms pages (docs.google.com/forms): question texts, answer options and
+  answers already selected, to build a prompt and to fill in the form.
+- AI assistant tabs you choose (Gemini, Claude, ChatGPT, DeepSeek, Grok): the extension
+  types the prompt into the chat and reads the assistant's reply.
+- Titles and URLs of open tabs: only to detect whether a Google Form and the selected
+  AI service are open.
 
-Local storage only:
-User preferences (language, delay, selected AI) and answer presets are stored locally in the browser using chrome.storage.local. This data never leaves the user's device.
+3. Data sent to third-party AI services
+When you press Start (or the "Ask AI" button next to a question), the question texts,
+answer options and the text of the preset you selected are entered into the chat of the
+AI service(s) you chose, using your own logged-in account. If your preset contains
+personal information (for example your name or age), that text is sent to those
+services too. These services process it under their own terms and privacy policies;
+the developer has no access to those conversations. The extension never sends data
+anywhere else.
 
-Third-party services:
-The extension opens tabs to AI services chosen by the user. The user's own account and session on those services are used. The extension developer has no access to these interactions.
+4. Data stored locally
+The following is stored only in your browser via chrome.storage.local:
+- settings (interface language, delay, answer language, selected AI, options);
+- your answer presets;
+- a short activity log (up to 200 entries).
+This data is not transmitted to the developer. You can delete presets and clear the log
+inside the extension; uninstalling the extension removes all of it.
+
+5. Permissions
+- activeTab, scripting, host permissions for docs.google.com and the listed AI
+  services: to read forms, fill answers and interact with the chosen AI chat.
+- tabs: to find and open the form and AI tabs.
+- storage: to save your settings and presets locally.
+
+6. Limited use
+Data accessed by the extension is used only to provide its single purpose: filling
+Google Forms with AI assistance. It is not sold, not used for advertising, credit
+or lending decisions, and not transferred to third parties except to the AI services
+you explicitly select, as described in section 3.
+
+7. Children
+The extension is not directed to children under 13.
+
+8. Changes
+If this policy changes, the date above will be updated.
 
 Contact: 20db09@gmail.com
